@@ -1,0 +1,78 @@
+src/generics/ListChoser.java:3: error: package scanner does not exist
+import scanner.*;
+^
+src/generics/ListChoser.java:23: error: incompatible types: incompatible parameter types in lambda expression
+			list.forEach((k,v) -> {
+			             ^
+src/generics/ListChoser.java:28: error: cannot find symbol
+			int o = ScannerInt.readInt(list.length());
+			                               ^
+  symbol:   method length()
+  location: variable list of type List<Object>
+src/generics/ListChoser.java:28: error: cannot find symbol
+			int o = ScannerInt.readInt(list.length());
+			        ^
+  symbol:   variable ScannerInt
+  location: class ListChoser
+src/generics/ListChoser.java:35: error: cannot find symbol
+		List<Carrot> lCarrots = new ArrayList<Carrot>();
+		     ^
+  symbol:   class Carrot
+  location: class ListChoser
+src/generics/ListChoser.java:35: error: cannot find symbol
+		List<Carrot> lCarrots = new ArrayList<Carrot>();
+		                                      ^
+  symbol:   class Carrot
+  location: class ListChoser
+src/generics/ListChoser.java:36: error: cannot find symbol
+		lCarrots.add(new Carrot(1));
+		                 ^
+  symbol:   class Carrot
+  location: class ListChoser
+src/generics/ListChoser.java:37: error: cannot find symbol
+		lCarrots.add(new Carrot(2));
+		                 ^
+  symbol:   class Carrot
+  location: class ListChoser
+src/generics/ListChoser.java:38: error: cannot find symbol
+		lCarrots.add(new Carrot(3));
+		                 ^
+  symbol:   class Carrot
+  location: class ListChoser
+src/generics/ListChoser.java:40: error: cannot find symbol
+		List<Apple> lApples = new ArrayList<Apple>();
+		     ^
+  symbol:   class Apple
+  location: class ListChoser
+src/generics/ListChoser.java:40: error: cannot find symbol
+		List<Apple> lApples = new ArrayList<Apple>();
+		                                    ^
+  symbol:   class Apple
+  location: class ListChoser
+src/generics/ListChoser.java:41: error: cannot find symbol
+		lApples.add(new Apple(1));
+		                ^
+  symbol:   class Apple
+  location: class ListChoser
+src/generics/ListChoser.java:42: error: cannot find symbol
+		lApples.add(new Apple(2));
+		                ^
+  symbol:   class Apple
+  location: class ListChoser
+src/generics/ListChoser.java:43: error: cannot find symbol
+		lApples.add(new Apple(3));
+		                ^
+  symbol:   class Apple
+  location: class ListChoser
+src/generics/ListChoser.java:47: error: cannot find symbol
+		Carrot chosenCarrot = lc.chose("which carrot ? ", lCarrots);
+		^
+  symbol:   class Carrot
+  location: class ListChoser
+src/generics/ListChoser.java:50: error: cannot find symbol
+		Apple chosenApple = lc.chose("which appel? ", lApples);
+		^
+  symbol:   class Apple
+  location: class ListChoser
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+16 errors
